@@ -5,12 +5,14 @@
 @import "settings";
 
 // подключения компонентов страницы
+@import "./components/button";
 @import "./components/header";
-
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
-}
+@import "./components/hero";
+@import "./components/steps";
+@import "./components/approach";
+@import "./components/info";
+@import "./components/partners";
+@import "./components/information";
+@import "./components/press";
+@import "./components/where";
+@import "./components/footer";
